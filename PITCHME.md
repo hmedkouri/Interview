@@ -54,6 +54,10 @@ public class Bar extends Foo {
 
 int a = 1L; Won’t compile and int b = 0; b += 1L; compiles fine. Why ?
 
+---
+
+### Question 4
+
 ~~~~
 public class Test
 {
@@ -80,7 +84,7 @@ true
 Why is the code printing true in the second and false in the first case?
 
 ---
-### Question 4
+### Question 5
 
 What is the problem with this code:
 
@@ -90,7 +94,7 @@ final byte[] bytes = someString.getBytes();
 
 ---
 
-### Question 5
+### Question 6
 
 What is the problem with this code?
 
@@ -102,7 +106,7 @@ Files.lines(path).forEach(System.out::println);
 
 ---
 
-### Question 6
+### Question 7
 
 Consider the following piece of code:
 
@@ -120,13 +124,13 @@ What will be the contents of the list after this operation and why?
 
 ---
 
-### Question 7
+### Question 8
 
 Describe and compare fail-fast and fail-safe iterators. Give examples.
 
 ---
 
-### Question 8
+### Question 9
 
 What does the following Java program print?
 
