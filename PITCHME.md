@@ -1,5 +1,7 @@
 # Interview
 
+--- 
+
 What will be the output of this code ?
 
 ~~~~
@@ -19,6 +21,7 @@ public class Test {
 }
 ~~~~
 
+---
 
 Identify the problem in the below code:
 
@@ -41,6 +44,7 @@ public class Bar extends Foo {
 }
 ~~~~
 
+---
 
 int a = 1L; Won’t compile and int b = 0; b += 1L; compiles fine. Why ?
 
@@ -67,7 +71,7 @@ true
 
 Why is the code printing true in the second and false in the first case?
 
--- // --
+---
 
 What is the problem with this code:
 
@@ -75,7 +79,7 @@ What is the problem with this code:
 final byte[] bytes = someString.getBytes();
 ~~~~
 
--- // --
+---
 
 What is the problem with this code?
 
@@ -85,7 +89,7 @@ final Path path = Paths.get(...);
 Files.lines(path).forEach(System.out::println);
 ~~~~
 
--- // --
+---
 
 Consider the following piece of code:
 
@@ -99,14 +103,13 @@ list.add(3);
 list.remove(2);
 ~~~~
 
-
 What will be the contents of the list after this operation and why?
 
--- // --
+---
 
 Describe and compare fail-fast and fail-safe iterators. Give examples.
 
--- // --
+---
 
 What does the following Java program print?
 
@@ -117,5 +120,3 @@ public class Test {
     }
 }
 ~~~~
-
-
