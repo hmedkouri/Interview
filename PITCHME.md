@@ -6,7 +6,6 @@
 
 What will be the output of this code ?
 
-<span style="font-size:0.6em; color:gray">
 ~~~~
 public enum Day {
 	SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
@@ -23,7 +22,6 @@ public class Test {
 	}
 }
 ~~~~
-</span>
 
 ---
 
