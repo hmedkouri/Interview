@@ -2,13 +2,14 @@
 
 --- 
 
-## Question
+### Question 1
 
 What will be the output of this code ?
 
 ~~~~
 public enum Day {
-	SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+	SUNDAY, MONDAY, TUESDAY, WEDNESDAY, 
+	THURSDAY, FRIDAY, SATURDAY
 }
 
 public class Test {
@@ -24,6 +25,7 @@ public class Test {
 ~~~~
 
 ---
+### Question 2
 
 Identify the problem in the below code:
 
@@ -47,6 +49,8 @@ public class Bar extends Foo {
 ~~~~
 
 ---
+
+### Question 3
 
 int a = 1L; Won’t compile and int b = 0; b += 1L; compiles fine. Why ?
 
@@ -74,6 +78,7 @@ true
 Why is the code printing true in the second and false in the first case?
 
 ---
+### Question 4
 
 What is the problem with this code:
 
@@ -82,6 +87,8 @@ final byte[] bytes = someString.getBytes();
 ~~~~
 
 ---
+
+### Question 5
 
 What is the problem with this code?
 
@@ -92,6 +99,8 @@ Files.lines(path).forEach(System.out::println);
 ~~~~
 
 ---
+
+### Question 6
 
 Consider the following piece of code:
 
@@ -109,9 +118,13 @@ What will be the contents of the list after this operation and why?
 
 ---
 
+### Question 7
+
 Describe and compare fail-fast and fail-safe iterators. Give examples.
 
 ---
+
+### Question 8
 
 What does the following Java program print?
 
